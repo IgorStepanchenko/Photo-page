@@ -1,0 +1,143 @@
+@media screen and (max-width: 991px) {
+    header .top-menu .header-nav .btn-red-nav {
+        display: none;
+    }
+    
+    .about-us .about-inner {
+        padding: 0;    
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    header .top-line {
+        text-align: center;
+    }
+    header .top-line .header-contacts:first-of-type {
+        padding: 0px 15px 0px 0px;
+    }
+    
+    header .top-menu .logo {
+        line-height: 50px;
+        margin-left: 5px;
+    }
+    header .top-menu .logo img {
+        max-width: 70%;
+    }
+    
+    header .top-menu .burger {
+        display: block;
+    }
+    
+    header .top-menu .header-nav {
+        background-color: #fff;
+        border-bottom: 1px solid #515151;
+        display: none;
+        float: none;
+        top: 100%;
+        right: 0;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        z-index: 100;
+    }
+    header .top-menu .header-nav ul li {
+        display: block;
+    }
+    header .top-menu .header-nav ul li a {
+        line-height: 50px;
+        padding: 10px 55px;
+    }
+    
+    .about-us .about-inner {
+        max-width: 320px;
+        margin: 0px auto 50px;
+    }
+    
+    .flex-approch {
+        flex-direction: column;
+    }
+
+    .pict img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    .flex-approch .text {
+        padding: 55px 20px 0px;
+    }
+    
+    .flex-approch .pict .step-num {
+        display: none;
+    }
+
+     .right-pic {
+        flex-direction: column-reverse;
+    }
+    
+    .analysis .form-analysis .close-btn {
+        right: -11px;
+    }
+    
+}
+
+@media screen and (max-width: 543px) {
+/*
+   .flex-order-6 {
+        order: 2 !important;
+    }
+*/
+    
+    .analysis .form-analysis {
+        padding: 50px 30px 65px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .top-line .header-contacts {
+        line-height: 30px;
+    }
+    .header-picture {
+        padding: 115px 0 150px;
+    }
+    
+    .header-picture h1 {
+        font-size: 38px;
+    }
+    .header-picture p {
+        font-size: 28px;
+    }
+    .header-picture .consultation-yellow {
+        width: 260px;
+    }
+}
+
+
+
+@media screen and (max-width: 321px) {
+    footer .footer-social ul li a {
+        margin: 0 9px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,486 @@
+$light-gray-blue: #f0f2f4
+$light-gray: #f3f3f3
+$titel-color: #424242
+$red-color: #de2b24
+$light-yellow: #f8cd53
+$pale-pink: #f35e59
+$blue-color: #1287bf
+$footer-gray: #2a2a2a
+$footer-gray-2: #515151
+
+
+
+
+body
+    font: 14px OpenSans, sans-serif !important
+    min-width: 320px
+    overflow-x: hidden
+    margin: 0
+    
+
+    
+.nav-fix
+    position: fixed !important
+    top: 0
+    right: 0
+    box-shadow: inset 0 -1px 2px #f0f2f4
+    left: 0
+    background-color: #fff
+    z-index: 100
+    
+header
+    .top-line
+        background-color: $light-gray-blue
+        border-bottom: 1px solid #e2e2e2
+        text-align: right
+        .header-contacts
+            display: inline-block
+            font-size: 15px
+            font-family: Helvetica
+            padding: 0 15px
+            line-height: 40px
+            vertical-align: middle
+            .fa-envelope, .fa-mobile
+                font-size: 27px
+                margin-right: 6px
+                vertical-align: middle
+            .fa-envelope
+                font-size: 20px
+            .header-fb
+                margin-left: 7px
+            &:first-of-type
+                border-right: 1px solid #e2e2e2
+            &:last-of-type
+                padding: 0px 0px 0px 15px
+
+            
+    .top-menu
+        //height: 100px
+        position: relative
+        font-family: Helvetica
+        transition: all .5s
+        
+        .burger
+            border-radius: 3px
+            border: 1px solid $red-color
+            cursor: pointer
+            display: none
+            transition: all .3s
+            top: 15px
+            right: 15px
+            position: absolute
+            &:hover
+                background-color: $red-color
+            &:hover span
+                background-color: #fff
+            span
+                border-radius: 2px
+                background-color: $red-color
+                color: $red-color
+                display: block
+                height: 2px
+                margin: 5px
+                transition: all .3s
+                width: 25px
+            
+        .logo
+            float: left
+            line-height: 100px
+            
+            img
+                max-width: 100%
+                height: auto
+                vertical-align: middle
+
+            
+        .header-nav
+            float: right
+            ul
+                list-style: none
+                margin: 0
+                padding: 0
+                li
+                    display: inline-block
+                    a
+                        color: $titel-color
+                        
+                        font-size: 15px
+                        font-weight: bold
+                        line-height: 100px
+                        padding: 15px 5px
+                        margin: 0 10px
+                        text-decoration: none
+                        transition: all .3s
+                        vertical-align: middle
+                        &:hover
+                            color: $red-color
+            .btn-red-nav
+                background-color: $red-color
+                border-radius: 5px;
+                color: #fff
+                display: inline-block
+                font-size: 15px;
+                font-weight: bold
+                height: 36px
+                margin-left: 15px
+                text-align: center;
+                transition: all .3s
+                line-height: 36px;
+                vertical-align: middle;
+                width: 170px
+                &:hover
+                    text-decoration: none
+                    box-shadow: 0px 0px 5px $red-color
+        
+
+                
+            
+.header-picture
+    background-image: url("../img/header.png")
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    color: #fff
+    font-family: Helvetica
+    padding: 175px 0 236px
+    text-align: center
+    h1
+        font-size: 48px
+        font-weight: bold
+        margin: 0
+    p
+        font-size: 30px
+        font-weight: lighter
+        font-family: Helvetica Neue
+        
+    .consultation-yellow
+        background-color: $light-yellow
+        border-radius: 5px
+        color: #fff
+        display: block
+        font-size: 23px
+        font-weight: bold
+        margin: 36px auto
+        height: 70px
+        line-height: 70px
+        text-transform: uppercase
+        transition: all .3s
+        width: 330px
+        &:hover
+            text-decoration: none
+            box-shadow: 0 0 5px $light-yellow
+        
+        
+//SECTION ABOUT US  
+
+.titel
+    color: $titel-color
+    font-family: Helvetica
+    margin-bottom: 40px
+    text-align: center
+    h2
+        font-weight:  bold
+        margin: 0
+    p
+        font-size: 20px
+    hr
+        background-color: $titel-color
+        height: 5px
+        margin: 0 auto
+        width: 50px
+
+.about-us
+    padding: 100px 0 120px
+    
+
+     
+    .about-inner
+        text-align: center
+        padding: 0 45px
+        h3
+            font-family: Helvetica
+            font-weight: bold
+        p
+            font-size: 15px
+            line-height: 22px
+
+
+
+//OUR APPROCH
+
+.approch
+    background-color: $light-gray
+    padding: 90px 0 120px
+
+
+.flex-approch
+    box-shadow: 2px 2px 2px #e5e5e5, -2px -2px 2px #e5e5e5
+    color: $titel-color
+    display: flex
+    font-family: Helvetica
+    margin-bottom: 40px
+    .pict
+        position: relative
+        .step-one
+            top: 70px
+            right: -50px
+        .step-two
+            top: 70px
+            left: -50px
+        .step-num
+            background-color: $red-color
+            box-sizing: border-box
+            border-radius: 5px
+            border: 2px solid #fff
+            color: #fff
+            height: 100px
+            position: absolute
+            width: 100px    
+            span
+                display: block
+                font-family: Helvetica
+                text-align: center
+                &:first-of-type
+                    font-size: 60px
+                &:last-of-type
+                    font-size: 20px
+                    line-height: 0
+            
+
+    .text
+        background-color: #fff
+        height: 236px
+        padding: 70px 30px 0 90px;
+        h4
+            font-weight: bold
+            margin-bottom: 10px
+            margin-top: 0
+        p
+            font-size: 14px
+            line-height: 21px
+    .text-right
+        padding: 70px 90px 0 30px
+
+
+
+
+            
+            
+    //OUR WORK            
+    
+.our-work
+    padding: 110px 0 130px
+    background-color: $red-color
+    .titel-work
+        color: #fff
+        hr
+            background-color: #fff
+            
+            
+    .flex-work
+        display: flex
+        justify-content: center
+        flex-wrap: wrap
+        .flex-text, .flex-img
+            width: 257px
+            height: 253px
+            overflow: hidden
+        .flex-text
+            background-color: $pale-pink
+            text-align: center
+            padding-top: 70px
+            color: #fff
+.order
+    color: blue
+            
+            
+    
+    //ANALYSIS
+    
+.analysis
+    background-color: $blue-color
+    padding: 100px 0 110px
+    .titel-analysis
+        color: #fff
+    .round-btn
+        border: 3px solid #fff
+        border-radius: 50%
+        box-sizing: border-box
+        cursor: pointer
+        height: 65px
+        margin: 0 auto
+        transition: all .4s
+        width: 65px
+        &:hover
+            box-shadow: 0 0 8px #fff
+        &:hover .fa-angle-down
+            text-shadow: 0 0 8px #fff
+        .fa-angle-down
+            font-size: 40px;
+            transition: all .4s
+            line-height: 60px;
+            
+            
+            
+    .form-analysis
+        background-color: #fff
+        border-radius: 3px
+        color: $titel-color
+        font-size: 15px
+        font-family: Helvetica
+        padding: 50px 70px 65px
+        position: relative
+        margin-top: 55px
+        text-align: center
+        &::before
+            content: ""
+            position: absolute
+            border: 30px solid transparent
+            border-bottom: 30px solid #fff
+            top: -59px
+            right: calc(50% - 30px)
+        
+        .close-btn
+            background-color: $red-color
+            border-radius: 50%
+            border: 2px solid #fff
+            color: #fff
+            cursor: pointer
+            font-size: 20px
+            height: 45px
+            line-height: 40px
+            top: -20px
+            transition: all .4s
+            right: -18px
+            position: absolute
+            width: 45px
+            &:hover .fa-times
+                transform: rotate(180deg)
+            &:hover
+                border-color: $red-color
+                background-color: #fff
+                color: $red-color
+
+                
+            .fa-times
+                transition: all .4s
+            
+        
+        p
+            margin-bottom: 40px
+            
+        input:not([type="submit"])
+            display: block
+            max-width: 445px
+            width: 100%
+            margin: 0 auto 10px
+            height: 50px
+            font-size: 14px
+            padding: 0 20px
+            border-radius: 5px
+            border: 1px solid #d8d8d8
+            transition: all .4s
+            &:focus
+                box-shadow: 1px 1px 3px $blue-color, -1px -1px 3px $blue-color
+            
+        input[type="submit"]
+            height: 45px
+            width: 160px
+            border-radius: 3px
+            color: #fff
+            font-size: 15px
+            font-weight: bold
+            text-transform: uppercase
+            background-color: $red-color
+            border: none
+            margin-top: 25px
+            
+            
+            
+            
+//FOOTER
+    
+footer
+    background-color: $footer-gray
+    padding: 90px 0 0px
+        
+    .titel-footer
+        color: #fff
+        
+    .footer-social
+        text-align: center
+        color: #cecece
+        ul
+            list-style: none
+            padding-left: 0
+            margin-bottom: 20px
+            li
+                //float: left
+                display: inline-block
+                a
+                    display: block
+                    width: 50px
+                    height: 50px
+                    box-sizing: border-box
+                    border: 2px solid $footer-gray-2
+                    border-radius: 3px
+                    margin: 0 10px
+                    transition: all .4s
+                    &:hover
+                        border-color: $red-color
+                    &:hover i
+                        color: $red-color
+                    i
+                        font-size: 25px
+                        line-height: 50px
+                        color: #fff
+                        transition: all .4s
+                        
+                        
+    .footer-form
+        margin-top: 20px
+        input[type="text"]
+            background-color: $footer-gray-2
+            border-radius: 5px
+            border: none
+            display: block
+            font-size: 14px
+            height: 55px
+            max-width: 680
+            transition: all .4s
+            padding: 0 20px
+            margin-bottom: 25px
+            width: 100%
+            &:focus
+                box-shadow: 1px 1px 3px $blue-color, -1px -1px 3px $blue-color
+            
+        input[type="submit"]
+            display: block
+            height: 50px
+            width: 150px
+            background-color: transparent
+            box-sizing: border-box
+            border: 2px solid $footer-gray-2
+            border-radius: 5px
+            color: #fff
+            margin: 0 auto
+            transition: all .4s
+            &:hover
+                box-shadow: 1px 1px 3px $blue-color, -1px -1px 3px $blue-color
+                border: none
+            
+            
+            
+.copyright
+    background-color: $footer-gray-2
+    text-align: center
+    margin-top: 80px
+    .copyright-text
+        line-height: 65px
+        color: #cecece
+        a
+            color: #cecece
+            
+            
+            
+        
